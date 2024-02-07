@@ -1,0 +1,59 @@
+@import "var.css";
+@import "fonts.css";
+@import "normalize.css";
+@import "global.css";
+@import "header.css";
+@import "navigation.css";
+@import "acc.css";
+@import "city.css";
+@import "present.css";
+@import 'modal-order.css';
+@import "what-building.css";
+@import "characteristics.css";
+@import "alert-cookie.css";
+@import "slider.css";
+
+a {
+  transition: color .2s, outline-color 0.3s;
+}
+
+button {
+  transition: color .2s, background-color 0.3s;
+}
+
+a:hover {
+  color: #c2b59b;
+}
+
+a:focus, a:active {
+  color: #5e4c26;
+  outline-color: #5e4c26;
+}
+
+button:hover {
+  color: #c2b59b;
+}
+
+button:focus, button:active {
+  color: #5e4c26;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #5e4c26;
+}
+
+
+.alert {
+  display: none;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  background-color: darksalmon;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.visible {
+  display: block;
+}
+
